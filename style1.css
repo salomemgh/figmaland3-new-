@@ -354,32 +354,52 @@ nav{
 
 .container9{
     width: 100%;
+    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
-    margin-top: 90px;
-    position: relative;
+    justify-content: space-around;
 }
+.container10{
+    position: relative;
+    width: 389px;
+}
+.container11{
+    width: 412px;
+    margin-top: 60px;
 
+}
+.container12{
+    width: 348px;
+}
+.wre{
+    width: 184px;
+    height: 184px;
+    background: #FFF5DB;
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 70px;
+    z-index: 2;
+}
+.photos71{
+    position: absolute;
+    z-index: 3;
+    margin-left: 15px;
+    margin-top: -20px;
+}
 .boy{
     position: absolute;
-    z-index: 27;
-    margin-top: 17px;
+    z-index: 3;
 }
 .dot2{
     position: absolute;
-    margin-left: 185px;
-    z-index: 26;
+    left: 205px;
+    margin-top: -18px;
+    z-index: 1;
 }
 .ellipse94{
     position: absolute;
-    margin-top: 230px;
-    margin-left: 15px;
-}
-
-.container10{
-    position: absolute;
-    margin-left: 420px;
-    margin-top: 70px;
+    margin-right: 1140px;
+    margin-top: 190px;
 }
 .text11{
     font-weight: 400;
@@ -394,35 +414,20 @@ nav{
     color: #565656;
     font-family: font2;
 }
-
-.container11{ 
-    position: absolute;
-    display: flex;
-    align-items: center;
-    gap: 26px;
-    margin-left: 427px;
-    margin-top: 250px;
+.img2, .img3, .img4, .img5{
+    padding-top: 30px;
+    padding-left: 15px;
 }
 
-.container12{
-    position: relative;
-    width: 184px;
-    height: 184px;
-    border-radius: 100px;
-    background-color: #fff5db;
-    left: 900px;
-    top: 70px;
-}
-.photos71{
-    position: absolute;
-    top: -90px;
-}
+
+
+
 
 
 /*merve */
 
 .container13{
-    margin-top: 400px;
+    margin-top: 350px;
     width: 100%;
     position: absolute;
     display: flex;
